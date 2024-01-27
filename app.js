@@ -7,6 +7,7 @@ document.getElementById('easy').style.backgroundColor = '#1875E8';
 const alterarConteudoTag = (tag, texto) => {
   let campo = document.querySelector(tag);
   campo.innerHTML = texto;
+  responsiveVoice.speak(texto, 'Brazilian Portuguese Female', {rate: 1.2});
 }
 
 const exibirMensagemInicial = () => {

@@ -27,7 +27,7 @@ body::before {
 }
 
 .container {
-    width: 80%;
+    width: 90%;
     height: 80%;
     display: flex;
     align-items: center;
@@ -45,7 +45,7 @@ body::before {
     display: flex;
     align-items: center;
     position: absolute;
-    bottom: 0;
+    bottom: 10;
 }
 
 .container__informacoes {
@@ -115,7 +115,7 @@ body::before {
 
 h1 {
     font-family: 'Chakra Petch', sans-serif;
-    font-size: 3.5rem;
+    font-size: 2.5rem;
     padding-bottom: 2rem;
 }
 
@@ -157,7 +157,7 @@ button:disabled {
 
 
     .texto__paragrafo {
-        font-size: 24px;
+        font-size: 1.5rem;
     }
 
     .container__imagem-pessoa {
@@ -172,4 +172,51 @@ button:disabled {
     .container__informacoes {
         padding: 1rem
     }
+}
+
+@media screen and (max-width: 468px) {
+
+  h1 {
+      font-size: 30px;
+  }
+
+  .container__botao {
+      font-size: 12px;
+  }
+
+
+  .texto__paragrafo {
+      font-size: 1.2rem;
+  }
+
+  .container__imagem-pessoa {
+      display: none;
+  }
+
+  .container__conteudo {
+      display: block;
+      position: inherit;
+  }
+
+  .container__informacoes {
+      padding: 1rem
+  }
+
+  .container, .container__levels {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .level {
+    width: 80%;
+    margin: 7px auto;
+  }
+
+  h1 {
+    padding-bottom: 1rem;
+  }
+
+  h1, p {
+    text-align: center;
+  }
 }
