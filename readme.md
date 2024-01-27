@@ -1,22 +1,27 @@
 # Jogo do número secreto
 
-## Sobre o projeto
-
 Projeto desenvolvido durante as aulas do curso **Lógica de Programação: explore funções e listas** do programa ***ONE - Oracle + Alura***.
 
+Confira em https://jogo-do-numero-secreto-ki429ria1-deboraalmeida.vercel.app/
+
+## Sobre o projeto
+
 É um jogo simples de adivinhação do número secreto, com dicas se ele é maior ou menor que o chute do jogador.
+
+A quantidade de chutes até o acerto é contabilizada e os números sorteados não se repetem até que todos já tenham saído.
 
 ## Principais conceitos abordados
 
 - Funções
-- document.getElementById()
-- document.querySelector()
+- document.getElementById() e querySelector()
 - innerHTML
 - Math.random
 - condicionais
 - arrays
 - array.length
 - recursividade
+- document.getElementById().removeAttribute() e setAttribute()
+- recursiveVoice (conheci nesse projeto e achei incrível <3)
 
 ## Indo além
 
