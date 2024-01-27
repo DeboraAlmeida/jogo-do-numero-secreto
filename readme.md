@@ -2,7 +2,7 @@
 
 Projeto desenvolvido durante as aulas do curso **Lógica de Programação: explore funções e listas** do programa ***ONE - Oracle + Alura***.
 
-Confira em https://jogo-do-numero-secreto-ki429ria1-deboraalmeida.vercel.app/
+Confira o projeto e teste suas habilidades de adivinhação [aqui](https://deboraalmeida.github.io/jogo-do-numero-secreto/)!
 
 ## Sobre o projeto
 
